@@ -12,3 +12,5 @@
 - npx shadcn-ui@latest add sheet
 - npx shadcn-ui@latest add tabs
 - npx shadcn-ui@latest add textarea
+
+- npm i @radix-ui/react-icons
