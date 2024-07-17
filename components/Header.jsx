@@ -1,9 +1,27 @@
+'use client';
+import React, { useState, useEffect } from "react";
+
+
 import ThemeToggler from "./ThemeToggler"
+import Logo from "./Logo";
+import Nav from "./Nav";
+import MobileNav from "./MobileNav";
 
 const Header = () => {
   return (
     <header>
-      <ThemeToggler />
+      <div className="container mx-auto">
+        <div className="flex justify-between item-center">
+          <Logo />
+          <div className="flex items-center gap-x-6">
+            <Nav />
+            <ThemeToggler />
+            <div className="x1:hidden">
+              <MobileNav />
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
   )
 }
