@@ -14,7 +14,7 @@ const Header = () => {
         <div className="flex justify-between item-center">
           <Logo />
           <div className="flex items-center gap-x-6">
-            <Nav />
+            <Nav containerStyles='hidden xl:flex gap-x-8 items-center' />
             <ThemeToggler />
             <div className="x1:hidden">
               <MobileNav />
