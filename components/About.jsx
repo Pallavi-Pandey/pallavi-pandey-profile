@@ -126,7 +126,7 @@ const About = () => {
                 <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
                     About me
                 </h2>
-                <div>
+                <div className="flex flex-col xl:flex-row">
                     {/*image*/}
                     <div className='hidden xl:flex flex-1 relative'>
                         <DevImg containerStyles='bg-about_shape_light dark:bg-about_shape_dark w-[500px] h-[500px]
