@@ -11,7 +11,6 @@ import {
   Briefcase,
   Calendar,
 } from "lucide-react";
-import { get } from "react-hook-form";
 
 const infoData = [
   {
@@ -78,19 +77,19 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "HTML, CSS, Bootstrap, JavaScript",
+        name: "React, Next.js, Tailwind CSS",
       },
       {
         name: "Full Stack Development",
       },
       {
-        name: "Python, Other Frameworks",
+        name: "Python, Django, Flask, FastAPI",
       },
       {
-        name: "Docker, Azure, Deployment",
+        name: "Docker, Azure, Deployment, Git & Github",
       },
       {
-        name: "Git & Github",
+        name: "MongoDB, MySQL, PostgreSQL",
       },
     ],
   },
@@ -110,6 +109,12 @@ const skillData = [
       {
         imgPath: "/about/wordpress.svg",
       },
+      {
+        imgPath: "/about/docker.svg",
+      },
+      {
+        imgPath: "/about/github.svg",
+      }
     ],
   },
 ];
@@ -177,7 +182,7 @@ const About = () => {
                     <div className="flex flex-col gap-y-2">
                       <div className="text-primary">Language Skill</div>
                       <div className="border-b border-border"></div>
-                      <div>English, Hindi, German</div>{" "}
+                      <div>English, Hindi, German</div>
                     </div>
                   </div>
                 </TabsContent>
@@ -188,7 +193,7 @@ const About = () => {
                       My Qualifications and Experience
                     </h3>
                     {/* experience and education */}
-                    <div className="grid md:grid-cols gap-y-8">
+                    <div className="grid md:grid-cols-2 gap-x-8 gap-y-8">
                       {/* experience */}
                       <div className="flex flex-col gap-y-6">
                         <div className="flex gap-x-4 items-center text-[22px] text-primary">
@@ -268,7 +273,46 @@ const About = () => {
                     </div>
                   </div>
                 </TabsContent>
-                <TabsContent value="skills">skills info</TabsContent>
+                {/* skills */}
+                <TabsContent value="skills">
+                  <div className="text-center xl:text-left">
+                    <h3 className="h3 mb-8">
+                      Tools I Use Everyday</h3>
+                      {/* skills */}
+                      <div className="mb-16">
+                        <h4 className="text-xl font-semibold mb-2">Skills</h4>
+                        <div className="border-b border-border mb-4"></div>
+                        {/* skill list*/}
+                        <div>
+                          {getData(skillData, "skills").data.map((item, index) => {
+                            const { name } = item;
+                            return (
+                              <div className="flex items-center gap-x-4" key={index}>
+                                <div className="text-primary">•</div>
+                                <div className="font-medium">{name}</div>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+                      {/* tools */}
+                      <div>
+                        <h4 className="text-xl font-semibold mb-2 xl:text-left">Tools</h4>
+                        <div className="border-b border-border mb-4"></div>
+                        {/* tools list */}
+                        <div className="flex gap-x-8 justify-center xl:justify-start">
+                          {getData(skillData, "tools").data.map((item, index) => {
+                            const { imgPath } = item;
+                            return (
+                              <div key={index}>
+                                <Image src={imgPath} alt="tool" width={48} height={48} priority />
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+                  </div>
+                </TabsContent>
               </div>
             </Tabs>
           </div>

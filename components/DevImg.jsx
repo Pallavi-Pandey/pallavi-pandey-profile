@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/image";
 
 const DevImg = ({containerStyles, imgSrc}) => {
   return (
@@ -8,4 +8,4 @@ const DevImg = ({containerStyles, imgSrc}) => {
   )
 }
 
-export default DevImg
+export default DevImg;
