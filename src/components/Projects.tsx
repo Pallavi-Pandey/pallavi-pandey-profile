@@ -7,11 +7,11 @@ import { Github, ExternalLink, Box, Sparkles, MapPin, Brain, Video, FileText } f
 const Projects = () => {
     const projects = [
         {
-            title: "AI Video Dubbing Pipeline",
-            description: "Real-time voice translation and lip-syncing API. Combines OpenAI Whisper (ASR), MarianMT (Translation), and Wav2Lip GAN for high-fidelity video dubbing. Containerized with Docker & Kubernetes.",
-            tech: ["Wav2Lip GAN", "OpenAI Whisper", "MarianMT", "Docker", "Kubernetes"],
-            icon: Video,
-            sourceLink: "https://github.com/Pallavi-Pandey/dataviv"
+            title: "Multimodal Clinical AI",
+            description: "A multimodal AI pipeline merging Speech Recognition and NLP for clinical documentation. Features real-time transcription, AI-powered documentation generation, and a modular architecture.",
+            tech: ["Python", "LLMs", "Speech-to-Text", "Jupyter", "NLP"],
+            icon: Brain,
+            sourceLink: "https://github.com/Pallavi-Pandey/DSAI_Lab_Project"
         },
         {
             title: "Technical Knowledge Base",
@@ -22,11 +22,11 @@ const Projects = () => {
             demoLink: "https://my-temp-blog.vercel.app/"
         },
         {
-            title: "Multimodal Clinical AI",
-            description: "A multimodal AI pipeline merging Speech Recognition and NLP for clinical documentation. Features real-time transcription, AI-powered documentation generation, and a modular architecture.",
-            tech: ["Python", "LLMs", "Speech-to-Text", "Jupyter", "NLP"],
-            icon: Brain,
-            sourceLink: "https://github.com/Pallavi-Pandey/DSAI_Lab_Project"
+            title: "AI Video Dubbing Pipeline",
+            description: "Real-time voice translation and lip-syncing API. Combines OpenAI Whisper (ASR), MarianMT (Translation), and Wav2Lip GAN for high-fidelity video dubbing. Containerized with Docker & Kubernetes.",
+            tech: ["Wav2Lip GAN", "OpenAI Whisper", "MarianMT", "Docker", "Kubernetes"],
+            icon: Video,
+            sourceLink: "https://github.com/Pallavi-Pandey/dataviv"
         },
         {
             title: "IITM BS Portal + Gen-AI",
