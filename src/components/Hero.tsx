@@ -2,7 +2,9 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, Mail, Code } from 'lucide-react';
+
+import Image from 'next/image';
 
 const Hero = () => {
     return (
@@ -44,6 +46,7 @@ const Hero = () => {
                         {[
                             { icon: Github, href: "https://github.com/Pallavi-Pandey", label: "GitHub" },
                             { icon: Linkedin, href: "https://www.linkedin.com/in/pallavi181/", label: "LinkedIn" },
+                            { icon: Code, href: "https://leetcode.com/u/Pallavi-Pandey/", label: "LeetCode" },
                             { icon: Mail, href: "mailto:pallavipandey181@gmail.com", label: "Email" }
                         ].map((social) => (
                             <motion.a
@@ -62,15 +65,6 @@ const Hero = () => {
                 </div>
             </motion.div>
 
-            <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 1, duration: 1 }}
-                className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-text-muted"
-            >
-                <span className="text-[10px] uppercase tracking-widest font-mono">Scroll to explore</span>
-                <div className="w-px h-12 bg-gradient-to-b from-brand-primary to-transparent" />
-            </motion.div>
         </section>
     );
 };

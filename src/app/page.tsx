@@ -15,12 +15,13 @@ export default function Home() {
 
       {/* Footer Section */}
       <footer className="py-12 border-t border-white/5 text-center px-6">
-        <div className="max-w-4xl mx-auto space-y-4">
-          <p className="text-brand-primary font-bold text-lg tracking-tighter">PP<span className="text-white">.</span></p>
+        <div className="max-w-4xl mx-auto flex flex-col items-center gap-6">
+          <p className="text-brand-primary font-bold text-2xl tracking-tighter">PP<span className="text-white">.</span></p>
           <p className="text-text-muted text-sm">© {new Date().getFullYear()} Pallavi Pandey. Built with React & Next.js.</p>
-          <div className="flex justify-center gap-6 pt-4">
+          <div className="flex justify-center gap-6">
             <a href="https://github.com/Pallavi-Pandey" target="_blank" className="text-xs text-text-muted hover:text-brand-primary transition-colors">GitHub</a>
             <a href="https://www.linkedin.com/in/pallavi181/" target="_blank" className="text-xs text-text-muted hover:text-brand-primary transition-colors">LinkedIn</a>
+            <a href="https://leetcode.com/u/Pallavi-Pandey/" target="_blank" className="text-xs text-text-muted hover:text-brand-primary transition-colors">LeetCode</a>
             <a href="mailto:pallavipandey181@gmail.com" className="text-xs text-text-muted hover:text-brand-primary transition-colors">Email</a>
           </div>
         </div>
