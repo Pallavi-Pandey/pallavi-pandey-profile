@@ -11,42 +11,44 @@ const Projects = () => {
             description: "Real-time voice translation and lip-syncing API. Combines OpenAI Whisper (ASR), MarianMT (Translation), and Wav2Lip GAN for high-fidelity video dubbing. Containerized with Docker & Kubernetes.",
             tech: ["Wav2Lip GAN", "OpenAI Whisper", "MarianMT", "Docker", "Kubernetes"],
             icon: Video,
-            link: "https://github.com/Pallavi-Pandey/dataviv"
+            sourceLink: "https://github.com/Pallavi-Pandey/dataviv"
         },
         {
             title: "Technical Knowledge Base",
             description: "A high-performance static blog for technical documentation. Features blazing fast SSG, a premium glassmorphic UI, and an integrated markdown note creator. Built with Next.js and TypeScript.",
             tech: ["Next.js", "TypeScript", "MDX", "Tailwind CSS", "CI/CD"],
             icon: FileText,
-            link: "https://github.com/Pallavi-Pandey/My_temp_blog"
+            sourceLink: "https://github.com/Pallavi-Pandey/My_temp_blog",
+            demoLink: "https://my-temp-blog.vercel.app/"
         },
         {
             title: "Multimodal Clinical AI",
             description: "A multimodal AI pipeline merging Speech Recognition and NLP for clinical documentation. Features real-time transcription, AI-powered documentation generation, and a modular architecture.",
             tech: ["Python", "LLMs", "Speech-to-Text", "Jupyter", "NLP"],
             icon: Brain,
-            link: "https://github.com/Pallavi-Pandey/DSAI_Lab_Project"
+            sourceLink: "https://github.com/Pallavi-Pandey/DSAI_Lab_Project"
         },
         {
             title: "IITM BS Portal + Gen-AI",
             description: "Integrated Google Gemini API to enable Gen-AI features like lecture summarization and personalized question generation. Built with Flask, SQLite, and vanilla JS.",
             tech: ["Flask", "Google Gemini API", "SQLite", "Python", "JavaScript", "Summarization", "Question Generation"],
             icon: Sparkles,
-            link: "https://github.com/Pallavi-Pandey/IITM_BS_Portal_with_Gen_AI"
+            sourceLink: "https://github.com/Pallavi-Pandey/IITM_BS_Portal_with_Gen_AI"
         },
         {
             title: "Unique Mart",
             description: "A dynamic grocery store app built with Flask. Features role-based access for users/admins, product categorization, and cart management. Visualizes sales data with Matplotlib.",
             tech: ["Flask", "SQLite", "Jinja2", "Bootstrap", "Matplotlib"],
             icon: Box,
-            link: "https://github.com/Pallavi-Pandey/Unique_Mart"
+            sourceLink: "https://github.com/Pallavi-Pandey/Unique_Mart"
         },
         {
             title: "Taxi Fare Guru",
-            description: "Machine learning model to predict NYC taxi fares using a dataset of over 55 million records. Optimized accuracy through intensive feature engineering and XGBoost.",
-            tech: ["Python", "Pandas", "Scikit-Learn", "XGBoost", "Big Data"],
+            description: "A machine learning solution for the Kaggle Taxi Fare Guru Challenge. Predicts total taxi fare amounts using advanced feature engineering and a suite of regressors including XGBoost and Random Forest.",
+            tech: ["Python", "XGBoost", "Random Forest", "Scikit-Learn", "Pandas"],
             icon: MapPin,
-            link: "#"
+            sourceLink: "https://github.com/Pallavi-Pandey/taxi-fare-guru-mlp",
+            demoLink: "https://www.kaggle.com/competitions/taxi-fare-guru-total-amount-prediction-challenge"
         }
     ];
 
@@ -100,12 +102,16 @@ const Projects = () => {
                                 </div>
 
                                 <div className="flex items-center gap-4 pt-4 border-t border-white/5">
-                                    <a href={project.link} className="flex items-center gap-2 text-xs font-bold hover:text-brand-accent transition-colors">
-                                        <Github size={14} /> Source
-                                    </a>
-                                    <a href={project.link} className="flex items-center gap-2 text-xs font-bold hover:text-brand-accent transition-colors">
-                                        <ExternalLink size={14} /> Demo
-                                    </a>
+                                    {project.sourceLink && (
+                                        <a href={project.sourceLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs font-bold hover:text-brand-accent transition-colors">
+                                            <Github size={14} /> Source
+                                        </a>
+                                    )}
+                                    {project.demoLink && (
+                                        <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs font-bold hover:text-brand-accent transition-colors">
+                                            <ExternalLink size={14} /> Demo
+                                        </a>
+                                    )}
                                 </div>
                             </div>
                         </motion.div>
