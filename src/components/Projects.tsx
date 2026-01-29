@@ -2,10 +2,17 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Box, Sparkles, MapPin } from 'lucide-react';
+import { Github, ExternalLink, Box, Sparkles, MapPin, Brain } from 'lucide-react';
 
 const Projects = () => {
     const projects = [
+        {
+            title: "Multimodal Clinical AI",
+            description: "A multimodal AI pipeline merging Speech Recognition and NLP for clinical documentation. Features real-time transcription, AI-powered documentation generation, and a modular architecture.",
+            tech: ["Python", "LLMs", "Speech-to-Text", "Jupyter", "NLP"],
+            icon: Brain,
+            link: "https://github.com/Pallavi-Pandey/DSAI_Lab_Project"
+        },
         {
             title: "E-Commerce Web Application",
             description: "Built a dynamic web application using Flask, with Jinja templating, Bootstrap, and HTML. Developed RESTful APIs with Flask-RESTful and integrated Flask-SQLAlchemy for seamless SQLite database management.",
