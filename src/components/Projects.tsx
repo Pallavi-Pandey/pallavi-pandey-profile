@@ -11,7 +11,7 @@ const Projects = () => {
             description: "Real-time voice translation and lip-syncing API. Combines OpenAI Whisper (ASR), MarianMT (Translation), and Wav2Lip GAN for high-fidelity video dubbing. Containerized with Docker & Kubernetes.",
             tech: ["Wav2Lip GAN", "OpenAI Whisper", "MarianMT", "Docker", "Kubernetes"],
             icon: Video,
-            link: "https://github.com/Pallavi-Pandey/dataviv"
+            link: "https://github.com/Pallavi-Pandey/AI_Video_Dubbing"
         },
         {
             title: "Multimodal Clinical AI",
