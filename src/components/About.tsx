@@ -20,7 +20,7 @@ const About = () => {
                 </div>
 
                 <div className="glass p-8 md:p-12 rounded-[2rem] border border-white/5 relative overflow-hidden group">
-                    <div className="grid md:grid-cols-[1.5fr,1fr] gap-12 items-center">
+                    <div className="grid grid-cols-1 gap-12 items-center">
                         <div className="relative z-10 space-y-6 text-lg text-text-muted leading-relaxed">
                             <p>
                                 I am a <span className="text-white font-medium">Data Science & Applications</span> student at <span className="text-brand-primary font-bold">IIT Madras</span> (2021-25), with a deep passion for building intelligent systems that bridge the gap between robust backend engineering and data-driven insights.
@@ -33,6 +33,7 @@ const About = () => {
                             </p>
                         </div>
 
+                        {/* Profile Image - Commented out for now
                         <div className="relative flex justify-center">
                             <div className="relative w-64 h-64 rounded-2xl overflow-hidden border-2 border-white/10 ring-1 ring-white/5 rotate-3 hover:rotate-0 transition-all duration-500 shadow-2xl group-hover:shadow-brand-primary/20">
                                 <Image
@@ -45,6 +46,7 @@ const About = () => {
                             </div>
                             <div className="absolute -z-10 top-4 right-4 w-64 h-64 rounded-2xl border border-brand-primary/20 bg-brand-primary/5 -rotate-3 group-hover:rotate-0 transition-all duration-500" />
                         </div>
+                        */}
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10 mt-12">

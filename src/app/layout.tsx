@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Pallavi Pandey | Software Engineer & Data Scientist",
-  description: "Portfolio of Pallavi Pandey, a Junior Software Engineer specializing in FastAPI, LLMs, and Data Science.",
+  description: "Portfolio of Pallavi Pandey, a Software Engineer specializing in FastAPI, LLMs, and Data Science.",
 };
 
 export default function RootLayout({

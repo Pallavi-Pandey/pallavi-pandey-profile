@@ -28,7 +28,7 @@ const Hero = () => {
                 </h1>
 
                 <p className="text-xl md:text-2xl text-text-muted max-w-2xl mx-auto leading-relaxed">
-                    Junior Software Engineer & Data Scientist.
+                    Software Engineer & Data Scientist.
                     Specializing in <span className="text-white">FastAPI</span>, <span className="text-white">AI/LLMs</span>, and scalable <span className="text-white">Backend Architectures</span>.
                 </p>
 

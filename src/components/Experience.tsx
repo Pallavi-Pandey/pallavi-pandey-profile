@@ -7,7 +7,7 @@ const Experience = () => {
     const experiences = [
         {
             company: "Articence Inc, CA",
-            role: "Junior Software Engineer",
+            role: "Software Developer Engineer",
             period: "Jan 2025 - Jan 2026",
             description: [
                 "Migrated backend architecture from Flask to FastAPI, improving performance and maintainability.",
@@ -18,7 +18,7 @@ const Experience = () => {
         },
         {
             company: "Magizh Technologies, Coimbatore",
-            role: "Junior Python Developer",
+            role: "Python Developer",
             period: "Jan 2024 - Dec 2024",
             description: [
                 "Developed backend for a scalable educational platform.",
@@ -28,13 +28,26 @@ const Experience = () => {
             tech: ["Python", "Flask", "Microservices", "OAuth", "Chatbots"]
         },
         {
+            company: "VaayuSastra, Chennai",
+            role: "Junior Developer Intern",
+            period: "Aug 2023 - Oct 2023",
+            description: [
+                "Built a learning platform where kids can learn, access, and take tests related to aerospace content.",
+                "Designed interactive assessment modules to track and evaluate student progress effectively.",
+                "Integrated educational resources with a focus on aerospace engineering concepts for high engagement."
+            ],
+            tech: ["Flutter", "Dart", "Firebase", "State Management"]
+        },
+        {
             company: "IIT Madras, Chennai",
-            role: "Internship",
+            role: "Tech Intern",
             period: "Jan 2023 - Sept 2023",
             description: [
-                "Gained hands-on experience in software development and data science projects during an 8-month internship."
+                "Developed the official website for 'Paradox', the flagship technical and cultural fest of the IITM BS degree.",
+                "Designed and launched the project showcase website for academic and research initiatives.",
+                "Managed and coordinated Student Affairs, bridging the gap between student requirements and administration."
             ],
-            tech: ["Software Development", "Data Science"]
+            tech: ["Web Development", "Portal Management", "Student Affairs"]
         }
     ];
 
