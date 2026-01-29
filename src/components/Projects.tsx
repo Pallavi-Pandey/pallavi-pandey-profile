@@ -2,10 +2,17 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Box, Sparkles, MapPin, Brain } from 'lucide-react';
+import { Github, ExternalLink, Box, Sparkles, MapPin, Brain, Video } from 'lucide-react';
 
 const Projects = () => {
     const projects = [
+        {
+            title: "AI Video Dubbing Pipeline",
+            description: "Real-time voice translation and lip-syncing API. Combines OpenAI Whisper (ASR), MarianMT (Translation), and Wav2Lip GAN for high-fidelity video dubbing. Containerized with Docker & Kubernetes.",
+            tech: ["Wav2Lip GAN", "OpenAI Whisper", "MarianMT", "Docker", "Kubernetes"],
+            icon: Video,
+            link: "https://github.com/Pallavi-Pandey/dataviv"
+        },
         {
             title: "Multimodal Clinical AI",
             description: "A multimodal AI pipeline merging Speech Recognition and NLP for clinical documentation. Features real-time transcription, AI-powered documentation generation, and a modular architecture.",
@@ -14,17 +21,17 @@ const Projects = () => {
             link: "https://github.com/Pallavi-Pandey/DSAI_Lab_Project"
         },
         {
-            title: "E-Commerce Web Application",
-            description: "Built a dynamic web application using Flask, with Jinja templating, Bootstrap, and HTML. Developed RESTful APIs with Flask-RESTful and integrated Flask-SQLAlchemy for seamless SQLite database management.",
-            tech: ["Flask", "RESTful API", "SQLAlchemy", "Bootstrap", "Matplotlib"],
-            icon: Box,
-            link: "#"
-        },
-        {
             title: "IITM BS Portal + Gen-AI",
             description: "Collaborated to develop and integrate Gen-AI features like lecture summarization, course insights, and personalized question generation for exam preparation.",
             tech: ["Gen-AI", "LLMs", "Python", "Summarization"],
             icon: Sparkles,
+            link: "#"
+        },
+        {
+            title: "E-Commerce Web Application",
+            description: "Built a dynamic web application using Flask, with Jinja templating, Bootstrap, and HTML. Developed RESTful APIs with Flask-RESTful and integrated Flask-SQLAlchemy for seamless SQLite database management.",
+            tech: ["Flask", "RESTful API", "SQLAlchemy", "Bootstrap", "Matplotlib"],
+            icon: Box,
             link: "#"
         },
         {
