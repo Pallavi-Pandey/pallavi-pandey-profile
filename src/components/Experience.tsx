@@ -8,7 +8,7 @@ const Experience = () => {
         {
             company: "Articence Inc, CA",
             role: "Junior Software Engineer",
-            period: "Jan 2025 - Current",
+            period: "Jan 2025 - Jan 2026",
             description: [
                 "Migrated backend architecture from Flask to FastAPI, improving performance and maintainability.",
                 "Integrated advanced AI functionalities (LLMs, RAG, TTS, STT) for intelligent automation.",
