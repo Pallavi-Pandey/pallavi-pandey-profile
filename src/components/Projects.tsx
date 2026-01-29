@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Box, Sparkles, MapPin, Brain, Video } from 'lucide-react';
+import { Github, ExternalLink, Box, Sparkles, MapPin, Brain, Video, FileText } from 'lucide-react';
 
 const Projects = () => {
     const projects = [
@@ -11,7 +11,14 @@ const Projects = () => {
             description: "Real-time voice translation and lip-syncing API. Combines OpenAI Whisper (ASR), MarianMT (Translation), and Wav2Lip GAN for high-fidelity video dubbing. Containerized with Docker & Kubernetes.",
             tech: ["Wav2Lip GAN", "OpenAI Whisper", "MarianMT", "Docker", "Kubernetes"],
             icon: Video,
-            link: "https://github.com/Pallavi-Pandey/AI_Video_Dubbing"
+            link: "https://github.com/Pallavi-Pandey/dataviv"
+        },
+        {
+            title: "Technical Knowledge Base",
+            description: "A high-performance static blog for technical documentation. Features blazing fast SSG, a premium glassmorphic UI, and an integrated markdown note creator. Built with Next.js and TypeScript.",
+            tech: ["Next.js", "TypeScript", "MDX", "Tailwind CSS", "CI/CD"],
+            icon: FileText,
+            link: "https://github.com/Pallavi-Pandey/My_temp_blog"
         },
         {
             title: "Multimodal Clinical AI",
@@ -22,17 +29,17 @@ const Projects = () => {
         },
         {
             title: "IITM BS Portal + Gen-AI",
-            description: "Collaborated to develop and integrate Gen-AI features like lecture summarization, course insights, and personalized question generation for exam preparation.",
-            tech: ["Gen-AI", "LLMs", "Python", "Summarization"],
+            description: "Integrated Google Gemini API to enable Gen-AI features like lecture summarization and personalized question generation. Built with Flask, SQLite, and vanilla JS.",
+            tech: ["Flask", "Google Gemini API", "SQLite", "Python", "JavaScript", "Summarization", "Question Generation"],
             icon: Sparkles,
-            link: "#"
+            link: "https://github.com/Pallavi-Pandey/IITM_BS_Portal_with_Gen_AI"
         },
         {
-            title: "E-Commerce Web Application",
-            description: "Built a dynamic web application using Flask, with Jinja templating, Bootstrap, and HTML. Developed RESTful APIs with Flask-RESTful and integrated Flask-SQLAlchemy for seamless SQLite database management.",
-            tech: ["Flask", "RESTful API", "SQLAlchemy", "Bootstrap", "Matplotlib"],
+            title: "Unique Mart",
+            description: "A dynamic grocery store app built with Flask. Features role-based access for users/admins, product categorization, and cart management. Visualizes sales data with Matplotlib.",
+            tech: ["Flask", "SQLite", "Jinja2", "Bootstrap", "Matplotlib"],
             icon: Box,
-            link: "#"
+            link: "https://github.com/Pallavi-Pandey/Unique_Mart"
         },
         {
             title: "Taxi Fare Guru",
