@@ -1,6 +1,6 @@
 "use client";
 
-import React from 'react';
+import Image from 'next/image';
 
 const Navbar = () => {
     const navLinks = [
@@ -14,8 +14,17 @@ const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center p-6">
             <div className="glass px-8 py-3 rounded-full flex items-center gap-8 border border-white/10 shadow-2xl">
-                <a href="#home" className="text-xl font-bold text-brand-primary tracking-tighter">
-                    PP<span className="text-white">.</span>
+                <a href="#home" className="flex items-center gap-2 group">
+                    <Image
+                        src="/icon.svg"
+                        alt="Logo"
+                        width={32}
+                        height={32}
+                        className="rounded-lg scale-90 group-hover:scale-100 transition-transform duration-300"
+                    />
+                    <span className="text-xl font-bold text-brand-primary tracking-tighter">
+                        PP<span className="text-white">.</span>
+                    </span>
                 </a>
                 <div className="hidden md:flex items-center gap-6">
                     {navLinks.map((link) => (
