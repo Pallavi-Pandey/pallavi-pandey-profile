@@ -7,25 +7,25 @@ const Experience = () => {
     const experiences = [
         {
             company: "Articence Inc, CA",
-            role: "Software Developer Engineer",
+            role: "AI/ML Developer",
             period: "Jan 2025 - Jan 2026",
             description: [
-                "Migrated backend architecture from Flask to FastAPI, improving performance and maintainability.",
-                "Integrated advanced AI functionalities (LLMs, RAG, TTS, STT) for intelligent automation.",
-                "Implemented real-time communication using WebSockets and Webhooks."
+                "Integrated advanced Gen-AI functionalities (LLMs, RAG, TTS, STT) for intelligent automation systems.",
+                "Migrated backend architecture to FastAPI to support high-performance AI inference pipelines.",
+                "Implemented real-time intelligent streaming using WebSockets and Webhooks for AI-driven interactions."
             ],
-            tech: ["FastAPI", "LLMs", "RAG", "WebSockets", "Python"]
+            tech: ["LLMs", "RAG", "FastAPI", "Python", "Gen-AI", "WebSockets"]
         },
         {
             company: "Magizh Technologies, Coimbatore",
-            role: "Python Developer",
+            role: "Python & AI Developer",
             period: "Jan 2024 - Dec 2024",
             description: [
-                "Developed backend for a scalable educational platform.",
-                "Integrated an AI-driven chatbot for personalized learning recommendations.",
-                "Implemented MicroServices for OAuth and notification services (Slack, SMS, LinkedIn)."
+                "Architected an AI-driven chatbot providing personalized educational recommendations.",
+                "Developed scalable backend systems for processing student data with Flask and PostgreSQL.",
+                "Implemented MicroServices architecture for various intelligent notification and auth services."
             ],
-            tech: ["Python", "Flask", "Microservices", "OAuth", "Chatbots"]
+            tech: ["Python", "Chatbots", "NLP", "Flask", "Microservices"]
         },
         {
             company: "VaayuSastra, Chennai",
