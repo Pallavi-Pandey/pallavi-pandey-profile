@@ -14,34 +14,34 @@ import {
 const Skills = () => {
     const categories = [
         {
-            title: "Languages & Core",
-            icon: Terminal,
-            skills: ["Python", "SQL", "GraphQL", "JavaScript", "Java", "HTML5", "CSS"]
-        },
-        {
-            title: "Frameworks & Backend",
-            icon: Code2,
-            skills: ["FastAPI", "Flask", "Django", "Vue.js", "React", "Node.js"]
-        },
-        {
             title: "AI & Data Science",
             icon: Cpu,
-            skills: ["LLMs", "RAG", "Langchain", "Hugging Face", "Pandas", "Scipy", "NLP"]
+            skills: ["LLMs", "RAG", "Agentic Workflows", "Langchain", "Hugging Face", "PyTorch", "TensorFlow", "Scikit-Learn", "NLTK", "Pandas", "NumPy"]
         },
         {
-            title: "Databases",
+            title: "Backend & Systems",
+            icon: Code2,
+            skills: ["FastAPI", "Flask", "Django", "Node.js", "GraphQL", "WebSockets", "Microservices"]
+        },
+        {
+            title: "Languages & Core",
+            icon: Terminal,
+            skills: ["Python", "JavaScript", "TypeScript", "SQL", "Java", "C", "HTML5", "CSS"]
+        },
+        {
+            title: "Databases & Search",
             icon: Database,
-            skills: ["PostgreSQL", "MongoDB", "Chroma DB", "ElasticSearch", "Redis"]
+            skills: ["PostgreSQL", "MongoDB", "Chroma DB", "Pinecone", "ElasticSearch", "Redis"]
         },
         {
             title: "Cloud & Devops",
             icon: Container,
-            skills: ["Docker", "Azure", "GCP", "CI/CD", "Git", "Kafka", "RabbitMQ"]
+            skills: ["Docker", "Kubernetes", "Azure", "GCP", "CI/CD", "Git", "Kafka"]
         },
         {
-            title: "Specialties",
+            title: "Automation & Tools",
             icon: Globe,
-            skills: ["Microservices", "WebSockets", "RPA", "n8n", "Web Scraping"]
+            skills: ["n8n", "RPA", "Web Scraping", "Postman", "Bash", "Linux"]
         }
     ];
 
