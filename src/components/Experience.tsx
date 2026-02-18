@@ -7,25 +7,27 @@ const Experience = () => {
     const experiences = [
         {
             company: "Articence Inc, CA",
-            role: "AI/ML Developer",
+            role: "Software Developer Engineer",
             period: "Jan 2025 - Jan 2026",
             description: [
-                "Integrated advanced Gen-AI functionalities (LLMs, RAG, TTS, STT) for intelligent automation systems.",
-                "Migrated backend architecture to FastAPI to support high-performance AI inference pipelines.",
-                "Implemented real-time intelligent streaming using WebSockets and Webhooks for AI-driven interactions."
+                "Integrated advanced Gen-AI capabilities (LLMs, RAG, TTS, STT) to build intelligent automation and real-time conversational systems across voice and chat channels.",
+                "Architected and migrated backend systems to FastAPI to support low-latency, high-throughput AI inference pipelines at scale.",
+                "Implemented real-time communication using WebSockets and Webhooks to enable live streaming interactions and event-driven workflows.",
+                "Contributed to scalable contact-center and automation infrastructure, improving system reliability, performance, and user experience."
             ],
-            tech: ["LLMs", "RAG", "FastAPI", "Python", "Gen-AI", "WebSockets"]
+            tech: ["LLMs", "RAG", "TTS", "STT", "FastAPI", "Python", "Gen-AI", "WebSockets", "Webhooks"]
         },
         {
             company: "Magizh Technologies, Coimbatore",
             role: "Python & AI Developer",
             period: "Jan 2024 - Dec 2024",
             description: [
-                "Architected an AI-driven chatbot providing personalized educational recommendations.",
-                "Developed scalable backend systems for processing student data with Flask and PostgreSQL.",
-                "Implemented MicroServices architecture for various intelligent notification and auth services."
+                "Designed and built an AI-powered chatbot that delivers personalized educational recommendations based on student profiles and learning goals.",
+                "Integrated AI to automatically generate and format quiz questions from book excerpts, content, or paragraphs, simplifying question creation and upload.",
+                "Developed a quiz application enabling students to add their own questions and revise them later through interactive quiz and fill-in-the-blanks formats for rapid practice.",
+                "Engineered scalable backend services using Flask and PostgreSQL to efficiently process and manage student data."
             ],
-            tech: ["Python", "Chatbots", "NLP", "Flask", "Microservices"]
+            tech: ["Python", "LLMs", "NLP", "Chatbots", "Flask", "PostgreSQL", "Microservices"]
         },
         {
             company: "VaayuSastra, Chennai",

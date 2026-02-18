@@ -24,7 +24,7 @@ const Hero = () => {
                 </div>
 
                 <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-tight">
-                    AI/ML <span className="text-gradient">Engineer</span>
+                    Pallavi <span className="text-gradient">Pandey</span>
                 </h1>
 
                 <p className="text-xl md:text-2xl text-text-muted max-w-2xl mx-auto leading-relaxed">
