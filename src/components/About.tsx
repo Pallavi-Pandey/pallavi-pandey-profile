@@ -23,13 +23,13 @@ const About = () => {
                     <div className="grid grid-cols-1 gap-12 items-center">
                         <div className="relative z-10 space-y-6 text-lg text-text-muted leading-relaxed">
                             <p>
-                                I am a <span className="text-white font-medium">Data Science & Applications</span> student at <span className="text-brand-primary font-bold">IIT Madras</span> (2021-25), with a deep passion for building intelligent systems that bridge the gap between robust backend engineering and data-driven insights.
+                                I am an <span className="text-white font-medium">AI/ML Engineer</span> and a <span className="text-brand-primary font-bold">Data Science</span> student at <span className="text-brand-primary font-bold">IIT Madras</span> (2021-25). I specialize in building intelligent systems that merge high-performance backend engineering with state-of-the-art AI.
                             </p>
                             <p>
-                                My journey is fueled by a constant curiosity for new technologies—from migrating architectures to <span className="text-white">FastAPI</span> for better performance, to integrating complex <span className="text-white">Gen-AI functionalities</span> like RAG and LLMs into real-world platforms.
+                                My primary focus is on <span className="text-white">Generative AI</span>, where I build robust pipelines utilizing <span className="text-white">LLMs, RAG, and Agentic Workflows</span>. I thrive on migrating complex architectures and integrating AI functionalities like TTS, STT, and translation into real-world, scalable platforms.
                             </p>
                             <p>
-                                Beyond coding, I am an active participant in hackathons, including the <span className="text-white">Kharagpur Data Science Hackathon 2024</span> and <span className="text-white">HackCBS 6.0</span>. I thrive in collaborative environments where I can leverage my skills in Python, AI, and Cloud technologies to solve challenging problems.
+                                Beyond my professional work, I am a passionate hackathon enthusiast, participating in events like the <span className="text-white">Kharagpur Data Science Hackathon 2024</span>. I am dedicated to pushing the boundaries of what is possible with data and machine intelligence.
                             </p>
                         </div>
 
