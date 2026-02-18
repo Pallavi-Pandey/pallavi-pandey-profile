@@ -24,12 +24,12 @@ const Hero = () => {
                 </div>
 
                 <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-tight">
-                    Pallavi <span className="text-gradient">Pandey</span>
+                    AI/ML <span className="text-gradient">Engineer</span>
                 </h1>
 
                 <p className="text-xl md:text-2xl text-text-muted max-w-2xl mx-auto leading-relaxed">
-                    Software Engineer & Data Scientist.
-                    Specializing in <span className="text-white">FastAPI</span>, <span className="text-white">AI/LLMs</span>, and scalable <span className="text-white">Backend Architectures</span>.
+                    Building the future with <span className="text-white">Generative AI</span>, <span className="text-white">LLMs</span>, and intelligent <span className="text-white">Data Systems</span>.
+                    Merging robust engineering with data-driven insights.
                 </p>
 
                 <div className="flex flex-wrap justify-center gap-4 mt-8">
