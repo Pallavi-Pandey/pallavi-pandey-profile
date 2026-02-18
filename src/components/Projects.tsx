@@ -8,47 +8,47 @@ const Projects = () => {
     const projects = [
         {
             title: "Multimodal Clinical AI",
-            description: "A multimodal AI pipeline merging Speech Recognition and NLP for clinical documentation. Features real-time transcription, AI-powered documentation generation, and a modular architecture.",
-            tech: ["Python", "LLMs", "Speech-to-Text", "Jupyter", "NLP"],
+            description: "Advanced clinical documentation pipeline merging Speech-to-Text and Generative AI. Features real-time transcription and automated medical reporting using specialized LLM prompting.",
+            tech: ["Python", "LLMs", "RAG", "Speech-to-Text", "NLP", "FastAPI"],
             icon: Brain,
             sourceLink: "https://github.com/Pallavi-Pandey/DSAI_Lab_Project"
         },
         {
+            title: "AI Video Dubbing Pipeline",
+            description: "End-to-end intelligent video translation system. Orchestrates MarianMT for translation, OpenAI Whisper for ASR, and Wav2Lip GAN for precise lip-syncing.",
+            tech: ["Wav2Lip GAN", "OpenAI Whisper", "MarianMT", "Docker", "Kubernetes"],
+            icon: Video,
+            sourceLink: "https://github.com/Pallavi-Pandey/dataviv"
+        },
+        {
+            title: "Taxi Fare Intelligence",
+            description: "Predictive ML solution for high-precision fare estimation. Leverages advanced feature engineering and a robust ensemble of XGBoost and Random Forest regressors.",
+            tech: ["Python", "XGBoost", "Random Forest", "Scikit-Learn", "Pandas", "Feature Engineering"],
+            icon: MapPin,
+            sourceLink: "https://github.com/Pallavi-Pandey/taxi-fare-guru-mlp",
+            demoLink: "https://www.kaggle.com/competitions/taxi-fare-guru-total-amount-prediction-challenge"
+        },
+        {
+            title: "IITM AI-Enhanced Portal",
+            description: "Full-stack educational platform integrated with Google Gemini. Features AI-driven lecture summarization and automated academic question generation.",
+            tech: ["Flask", "Google Gemini API", "SQLite", "Python", "Summarization", "Gen-AI"],
+            icon: Sparkles,
+            sourceLink: "https://github.com/Pallavi-Pandey/IITM_BS_Portal_with_Gen_AI"
+        },
+        {
             title: "Technical Knowledge Base",
-            description: "A high-performance static blog for technical documentation. Features blazing fast SSG, a premium glassmorphic UI, and an integrated markdown note creator. Built with Next.js and TypeScript.",
+            description: "High-performance technical blog optimized for developer experience. Features glassmorphic UI, markdown integration, and automated CI/CD deployment.",
             tech: ["Next.js", "TypeScript", "MDX", "Tailwind CSS", "CI/CD"],
             icon: FileText,
             sourceLink: "https://github.com/Pallavi-Pandey/My_temp_blog",
             demoLink: "https://my-temp-blog.vercel.app/"
         },
         {
-            title: "AI Video Dubbing Pipeline",
-            description: "Real-time voice translation and lip-syncing API. Combines OpenAI Whisper (ASR), MarianMT (Translation), and Wav2Lip GAN for high-fidelity video dubbing. Containerized with Docker & Kubernetes.",
-            tech: ["Wav2Lip GAN", "OpenAI Whisper", "MarianMT", "Docker", "Kubernetes"],
-            icon: Video,
-            sourceLink: "https://github.com/Pallavi-Pandey/dataviv"
-        },
-        {
-            title: "IITM BS Portal + Gen-AI",
-            description: "Integrated Google Gemini API to enable Gen-AI features like lecture summarization and personalized question generation. Built with Flask, SQLite, and vanilla JS.",
-            tech: ["Flask", "Google Gemini API", "SQLite", "Python", "JavaScript", "Summarization", "Question Generation"],
-            icon: Sparkles,
-            sourceLink: "https://github.com/Pallavi-Pandey/IITM_BS_Portal_with_Gen_AI"
-        },
-        {
             title: "Unique Mart",
-            description: "A dynamic grocery store app built with Flask. Features role-based access for users/admins, product categorization, and cart management. Visualizes sales data with Matplotlib.",
-            tech: ["Flask", "SQLite", "Jinja2", "Bootstrap", "Matplotlib"],
+            description: "Intelligent grocery management system with integrated sales forecasting and data visualization modules for inventory optimization.",
+            tech: ["Flask", "SQLite", "Matplotlib", "Data Visualization", "Python"],
             icon: Box,
             sourceLink: "https://github.com/Pallavi-Pandey/Unique_Mart"
-        },
-        {
-            title: "Taxi Fare Guru",
-            description: "A machine learning solution for the Kaggle Taxi Fare Guru Challenge. Predicts total taxi fare amounts using advanced feature engineering and a suite of regressors including XGBoost and Random Forest.",
-            tech: ["Python", "XGBoost", "Random Forest", "Scikit-Learn", "Pandas"],
-            icon: MapPin,
-            sourceLink: "https://github.com/Pallavi-Pandey/taxi-fare-guru-mlp",
-            demoLink: "https://www.kaggle.com/competitions/taxi-fare-guru-total-amount-prediction-challenge"
         }
     ];
 
