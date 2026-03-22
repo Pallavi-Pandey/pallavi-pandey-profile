@@ -28,8 +28,7 @@ const Hero = () => {
                 </h1>
 
                 <p className="text-xl md:text-2xl text-text-muted max-w-2xl mx-auto leading-relaxed">
-                    Building the future with <span className="text-white">Generative AI</span>, <span className="text-white">LLMs</span>, and intelligent <span className="text-white">Data Systems</span>.
-                    Merging robust engineering with data-driven insights.
+                    <span className="text-white">Full Stack Engineer</span> building the future with <span className="text-white">Generative AI</span>, <span className="text-white">LLMs</span>, and intelligent <span className="text-white">Data Systems</span>.
                 </p>
 
                 <div className="flex flex-wrap justify-center gap-4 mt-8">

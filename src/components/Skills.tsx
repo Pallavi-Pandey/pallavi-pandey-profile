@@ -16,32 +16,32 @@ const Skills = () => {
         {
             title: "AI & Data Science",
             icon: Cpu,
-            skills: ["LLMs", "RAG", "Agentic Workflows", "Langchain", "Hugging Face", "PyTorch", "TensorFlow", "Scikit-Learn", "NLTK", "Pandas", "NumPy"]
+            skills: ["LLMs", "RAG", "Agentic Workflows", "Langchain", "Hugging Face", "PyTorch", "Prompt Engineering", "Fine-tuning", "Tool Calling", "MCP"]
         },
         {
             title: "Backend & Systems",
             icon: Code2,
-            skills: ["FastAPI", "Flask", "Django", "Node.js", "GraphQL", "WebSockets", "Microservices"]
+            skills: ["FastAPI", "Flask", "Django", "Node.js", "GraphQL", "WebSockets", "Microservices", "Event-Driven", "RBAC", "Celery"]
         },
         {
             title: "Languages & Core",
             icon: Terminal,
-            skills: ["Python", "JavaScript", "TypeScript", "SQL", "Java", "C", "HTML5", "CSS"]
+            skills: ["Python", "JavaScript", "TypeScript", "SQL", "Java", "C", "HTML5", "CSS", "Bash/Shell"]
         },
         {
             title: "Databases & Search",
             icon: Database,
-            skills: ["PostgreSQL", "MongoDB", "Chroma DB", "Pinecone", "ElasticSearch", "Redis"]
+            skills: ["PostgreSQL", "MongoDB", "Chroma DB", "Pinecone", "ElasticSearch", "Redis", "TimescaleDB", "Neo4j"]
         },
         {
-            title: "Cloud & Devops",
+            title: "Cloud & DevOps",
             icon: Container,
-            skills: ["Docker", "Kubernetes", "Azure", "GCP", "CI/CD", "Git", "Kafka"]
+            skills: ["Docker", "Kubernetes", "Azure", "GCP", "AWS (EC2, Lambda, RDS)", "CI/CD", "Helm", "Terraform"]
         },
         {
-            title: "Automation & Tools",
+            title: "Automation & Monitoring",
             icon: Globe,
-            skills: ["n8n", "RPA", "Web Scraping", "Postman", "Bash", "Linux"]
+            skills: ["n8n", "Make.com", "Zapier", "Prometheus", "Grafana", "ELK Stack", "Postman", "Linux"]
         }
     ];
 

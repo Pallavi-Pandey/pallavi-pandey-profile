@@ -6,9 +6,20 @@ import { motion } from 'framer-motion';
 const Experience = () => {
     const experiences = [
         {
+            company: "Dom Ventas, Bengaluru",
+            role: "Full Stack Engineer",
+            period: "Jan 2026 - Current",
+            description: [
+                "Managing and automating core application workflows supporting operations, retail, marketing, and sales.",
+                "Architecting an accreditation application with a RAG-based AI chatbot for intelligent document retrieval and user assistance.",
+                "Maintaining a custom dashboard for unified business insights via ETL processes across multiple databases."
+            ],
+            tech: ["React", "FastAPI", "RAG", "ETL", "PostgreSQL", "Next.js"]
+        },
+        {
             company: "Articence Inc, CA",
             role: "Software Developer Engineer",
-            period: "Jan 2025 - Jan 2026",
+            period: "Jan 2025 - Dec 2025",
             description: [
                 "Integrated advanced Gen-AI capabilities (LLMs, RAG, TTS, STT) to build intelligent automation and real-time conversational systems across voice and chat channels.",
                 "Architected and migrated backend systems to FastAPI to support low-latency, high-throughput AI inference pipelines at scale.",

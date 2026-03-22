@@ -23,7 +23,7 @@ const About = () => {
                     <div className="grid grid-cols-1 gap-12 items-center">
                         <div className="relative z-10 space-y-6 text-lg text-text-muted leading-relaxed">
                             <p>
-                                I am an <span className="text-white font-medium">AI/ML Engineer</span> and a <span className="text-brand-primary font-bold">Data Science</span> student at <span className="text-brand-primary font-bold">IIT Madras</span> (2021-25). I specialize in building intelligent systems that merge high-performance backend engineering with state-of-the-art AI.
+                                I am a <span className="text-white font-medium">Full Stack Engineer</span> at <span className="text-brand-primary font-bold">Dom Ventas</span> and a <span className="text-brand-primary font-bold">Data Science</span> student at <span className="text-brand-primary font-bold">IIT Madras</span> (2021-25). I specialize in building intelligent systems that merge high-performance backend engineering with state-of-the-art AI.
                             </p>
                             <p>
                                 My primary focus is on <span className="text-white">Generative AI</span>, where I build robust pipelines utilizing <span className="text-white">LLMs, RAG, and Agentic Workflows</span>. I thrive on migrating complex architectures and integrating AI functionalities like TTS, STT, and translation into real-world, scalable platforms.
