@@ -2,14 +2,14 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Presentation, GraduationCap, Calendar, MapPin, Clock, Boxes } from 'lucide-react';
+import { Presentation, GraduationCap, Calendar, MapPin, Clock, Boxes, Sparkles } from 'lucide-react';
 
 const Activities = () => {
     const activities = [
         {
             title: "Guest Lecture: AI & Data Science",
             organization: "VIT",
-            location: "Vellore/Chennai",
+            location: "Vellore",
             date: "April, 2026",
             duration: "Single Session",
             description: "Delivered an insightful session on the evolving landscape of AI and Data Science, bridging academic theory with industry practices.",
@@ -31,13 +31,24 @@ const Activities = () => {
         {
             title: "Workshop: Blockchain & Web3 Fundamentals",
             organization: "Magizh technologies",
-            location: "Online",
+            location: "Coimbatore",
             date: "2025",
             duration: "10-Day Bootcamp",
-            description: "Conducted an intensive 2-day bootcamp on Blockchain fundamentals, covering smart contract development with Solidity, DeFi concepts, and hands-on projects deploying on Ethereum testnets using Hardhat and Web3.js.",
+            description: "Conducted an intensive 10-day bootcamp on Blockchain fundamentals, covering smart contract development with Solidity, DeFi concepts, and hands-on projects deploying on Ethereum testnets using Hardhat and Web3.js.",
             icon: Boxes,
             tech: ["Solidity", "Ethereum", "Hardhat", "Web3.js", "DeFi", "IPFS"],
             color: "text-brand-accent"
+        },
+        {
+            title: "Training: Generative AI in Practice",
+            organization: "Training Institution",
+            location: "Bangalore, Whitefield (Offline)",
+            date: "2025",
+            duration: "3 Weeks",
+            description: "Delivered a hands-on 3 weeks offline intensive training for B.Tech interns at Training Institution, Bangalore Whitefield, covering LLM fundamentals, RAG pipelines, prompt engineering, agentic workflows with LangChain, and real-world deployment of AI-powered applications.",
+            icon: Sparkles,
+            tech: ["LLMs", "RAG", "LangChain", "Prompt Engineering", "Agentic AI", "HuggingFace"],
+            color: "text-brand-primary"
         }
     ];
 

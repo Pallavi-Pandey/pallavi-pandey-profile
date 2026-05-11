@@ -4,9 +4,9 @@ import Image from 'next/image';
 
 const Navbar = () => {
     const navLinks = [
-        { name: 'Home', href: '#home' },
         { name: 'About', href: '#about' },
         { name: 'Experience', href: '#experience' },
+        { name: 'Activities', href: '#activities' },
         { name: 'Projects', href: '#projects' },
         { name: 'Skills', href: '#skills' },
     ];
@@ -14,6 +14,7 @@ const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center p-6">
             <div className="glass px-8 py-3 rounded-full flex items-center gap-8 border border-white/10 shadow-2xl">
+                {/* Logo — links to home */}
                 <a href="#home" className="flex items-center gap-2 group">
                     <Image
                         src="/icon.svg"
