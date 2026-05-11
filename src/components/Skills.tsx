@@ -8,7 +8,8 @@ import {
     Globe,
     Cpu,
     Terminal,
-    Container
+    Container,
+    Link2
 } from 'lucide-react';
 
 const Skills = () => {
@@ -42,6 +43,11 @@ const Skills = () => {
             title: "Automation & Monitoring",
             icon: Globe,
             skills: ["n8n", "Make.com", "Zapier", "Prometheus", "Grafana", "ELK Stack", "Postman", "Linux"]
+        },
+        {
+            title: "Blockchain & Web3",
+            icon: Link2,
+            skills: ["Solidity", "Ethereum", "Solana", "Smart Contracts", "Hardhat", "Web3.js", "Ethers.js", "IPFS", "DeFi", "NFTs", "Anchor"]
         }
     ];
 

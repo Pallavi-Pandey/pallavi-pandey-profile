@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Box, Sparkles, MapPin, Brain, Video, FileText } from 'lucide-react';
+import { Github, ExternalLink, Box, Sparkles, MapPin, Brain, Video, FileText, Layers } from 'lucide-react';
 
 const Projects = () => {
     const projects = [
@@ -49,6 +49,13 @@ const Projects = () => {
             tech: ["Flask", "SQLite", "Matplotlib", "Data Visualization", "Python"],
             icon: Box,
             sourceLink: "https://github.com/Pallavi-Pandey/unique-mart-ecommerce"
+        },
+        {
+            title: "DeFi Lending Protocol",
+            description: "Decentralized lending and borrowing protocol built on Ethereum. Features collateralized loans, dynamic interest rates, and on-chain liquidation logic via Solidity smart contracts.",
+            tech: ["Solidity", "Ethereum", "Hardhat", "Web3.js", "React", "IPFS"],
+            icon: Layers,
+            sourceLink: "https://github.com/Pallavi-Pandey/defi-lending-protocol"
         }
     ];
 

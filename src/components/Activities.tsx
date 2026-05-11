@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Presentation, GraduationCap, Calendar, MapPin, Clock } from 'lucide-react';
+import { Presentation, GraduationCap, Calendar, MapPin, Clock, Boxes } from 'lucide-react';
 
 const Activities = () => {
     const activities = [
@@ -10,7 +10,7 @@ const Activities = () => {
             title: "Guest Lecture: AI & Data Science",
             organization: "VIT",
             location: "Vellore/Chennai",
-            date: "April 2, 2026",
+            date: "April, 2026",
             duration: "Single Session",
             description: "Delivered an insightful session on the evolving landscape of AI and Data Science, bridging academic theory with industry practices.",
             icon: Presentation,
@@ -27,6 +27,17 @@ const Activities = () => {
             icon: GraduationCap,
             tech: ["SQL", "Python", "Pandas", "NumPy", "Power BI"],
             color: "text-brand-secondary"
+        },
+        {
+            title: "Workshop: Blockchain & Web3 Fundamentals",
+            organization: "Magizh technologies",
+            location: "Online",
+            date: "2025",
+            duration: "10-Day Bootcamp",
+            description: "Conducted an intensive 2-day bootcamp on Blockchain fundamentals, covering smart contract development with Solidity, DeFi concepts, and hands-on projects deploying on Ethereum testnets using Hardhat and Web3.js.",
+            icon: Boxes,
+            tech: ["Solidity", "Ethereum", "Hardhat", "Web3.js", "DeFi", "IPFS"],
+            color: "text-brand-accent"
         }
     ];
 

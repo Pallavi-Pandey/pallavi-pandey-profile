@@ -23,10 +23,13 @@ const About = () => {
                     <div className="grid grid-cols-1 gap-12 items-center">
                         <div className="relative z-10 space-y-6 text-lg text-text-muted leading-relaxed">
                             <p>
-                                I am a <span className="text-white font-medium">Full Stack Engineer</span> at <span className="text-brand-primary font-bold">Dom Ventas</span> and a <span className="text-brand-primary font-bold">Data Science</span> student at <span className="text-brand-primary font-bold">IIT Madras</span> (2021-25). I specialize in building intelligent systems that merge high-performance backend engineering with state-of-the-art AI.
+                                I am a <span className="text-white font-medium">Full Stack Engineer</span> at <span className="text-brand-primary font-bold">Dom Ventas</span> and a <span className="text-brand-primary font-bold">Data Science</span> graduate from <span className="text-brand-primary font-bold">IIT Madras</span>. I specialize in building intelligent systems that merge high-performance backend engineering with state-of-the-art AI.
                             </p>
                             <p>
                                 My primary focus is on <span className="text-white">Generative AI</span>, where I build robust pipelines utilizing <span className="text-white">LLMs, RAG, and Agentic Workflows</span>. I thrive on migrating complex architectures and integrating AI functionalities like TTS, STT, and translation into real-world, scalable platforms.
+                            </p>
+                            <p>
+                                I am also deeply interested in <span className="text-white">Blockchain &amp; Web3</span>, exploring smart contract development on <span className="text-brand-primary font-bold">Ethereum &amp; Solana</span>, DeFi protocols, and the convergence of AI with decentralized systems to build trustless, verifiable applications.
                             </p>
                             <p>
                                 Beyond my professional work, I am a passionate hackathon enthusiast, participating in events like the <span className="text-white">Kharagpur Data Science Hackathon 2024</span>. I am dedicated to pushing the boundaries of what is possible with data and machine intelligence.
@@ -56,7 +59,7 @@ const About = () => {
                             </div>
                             <div>
                                 <h4 className="font-bold text-white mb-1">Education</h4>
-                                <p className="text-sm text-text-muted">B.S in Data Science & Applications, IIT Madras (2021-25)</p>
+                                <p className="text-sm text-text-muted">B.S in Data Science & Applications, IIT Madras</p>
                             </div>
                         </div>
                         <div className="p-6 rounded-2xl bg-white/5 border border-white/5 flex items-start gap-4">
@@ -65,7 +68,7 @@ const About = () => {
                             </div>
                             <div>
                                 <h4 className="font-bold text-white mb-1">Interests</h4>
-                                <p className="text-sm text-text-muted">AI Research, Scalable Systems, Open Source, Hackathons</p>
+                                <p className="text-sm text-text-muted">AI Research, Blockchain & Web3, Scalable Systems, Open Source, Hackathons</p>
                             </div>
                         </div>
                     </div>
