@@ -2,10 +2,18 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Box, Sparkles, MapPin, Brain, Video, FileText, Layers } from 'lucide-react';
+import { Github, ExternalLink, Box, Sparkles, MapPin, Brain, Video, FileText, Layers, TrendingUp } from 'lucide-react';
 
 const Projects = () => {
     const projects = [
+        {
+            title: "AI Financial Modeling & Decision Intelligence",
+            description: "End-to-end financial modeling system with XGBoost + RandomForest revenue forecasting, what-if scenario simulation, and AI-generated business insights via a 5-provider fallback chain. Features an interactive Streamlit dashboard with Plotly visualisations.",
+            tech: ["Python", "XGBoost", "Random Forest", "Streamlit", "Plotly", "Gemini", "Claude", "Pandas"],
+            icon: TrendingUp,
+            sourceLink: "https://github.com/Pallavi-Pandey/ai-financial-modeling",
+            demoLink: "https://ai-financial-modeling.streamlit.app/"
+        },
         {
             title: "AI Healthcare System",
             description: "Advanced clinical documentation pipeline merging Speech-to-Text and Generative AI. Features real-time transcription and automated medical reporting using specialized LLM prompting.",
