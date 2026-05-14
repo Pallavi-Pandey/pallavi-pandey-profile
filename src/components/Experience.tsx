@@ -42,7 +42,7 @@ const Experience = () => {
         },
         {
             company: "VaayuSastra, Chennai",
-            role: "Junior Developer Intern",
+            role: "Junior Developer",
             period: "Aug 2022 - Oct 2023",
             description: [
                 "Built a learning platform where kids can learn, access, and take tests related to aerospace content.",
@@ -53,7 +53,7 @@ const Experience = () => {
         },
         {
             company: "IIT Madras, Chennai",
-            role: "Tech Intern",
+            role: "Web Developer",
             period: "Jan 2023 - Sept 2023",
             description: [
                 "Developed the official website for 'Paradox', the flagship technical and cultural fest of the IITM BS degree.",
