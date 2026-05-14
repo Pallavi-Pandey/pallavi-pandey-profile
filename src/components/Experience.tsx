@@ -43,7 +43,7 @@ const Experience = () => {
         {
             company: "VaayuSastra, Chennai",
             role: "Junior Developer Intern",
-            period: "Aug 2023 - Oct 2023",
+            period: "Aug 2022 - Oct 2023",
             description: [
                 "Built a learning platform where kids can learn, access, and take tests related to aerospace content.",
                 "Designed interactive assessment modules to track and evaluate student progress effectively.",
