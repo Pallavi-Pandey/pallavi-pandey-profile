@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Box, Sparkles, MapPin, Brain, Video, FileText, Layers, TrendingUp } from 'lucide-react';
+import { Github, ExternalLink, Box, Sparkles, MapPin, Brain, Video, FileText, Layers, TrendingUp, Mic } from 'lucide-react';
 
 const Projects = () => {
     const projects = [
@@ -13,6 +13,13 @@ const Projects = () => {
             icon: TrendingUp,
             sourceLink: "https://github.com/Pallavi-Pandey/ai-financial-modeling",
             demoLink: "https://ai-financial-modeling.streamlit.app/"
+        },
+        {
+            title: "AI Voice Assistant",
+            description: "Real-time AI voice agent for an auto service call center. Handles VIN lookups, customer profile creation, and call routing entirely by voice using a fully free AI stack.",
+            tech: ["Python", "LiveKit", "Groq Whisper", "Llama 3.3", "ElevenLabs", "SQLite"],
+            icon: Mic,
+            sourceLink: "https://github.com/Pallavi-Pandey/ai-voice-assistant"
         },
         {
             title: "AI Healthcare System",
