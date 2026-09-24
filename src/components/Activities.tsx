@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Presentation, GraduationCap, Calendar, MapPin, Clock, Boxes, Sparkles } from 'lucide-react';
+import { Presentation, GraduationCap, Calendar, MapPin, Clock, Boxes, Sparkles, Brain, FileSpreadsheet } from 'lucide-react';
 
 const Activities = () => {
     const activities = [
@@ -49,6 +49,28 @@ const Activities = () => {
             icon: Sparkles,
             tech: ["LLMs", "RAG", "LangChain", "Prompt Engineering", "Agentic AI", "HuggingFace"],
             color: "text-brand-primary"
+        },
+        {
+            title: "Semester 5 AI Faculty: Deep Learning & NLP",
+            organization: "St. Claret College Autonomous",
+            location: "Bangalore",
+            date: "July – September, 2026",
+            duration: "40-Hour Semester Program",
+            description: "Taught the Semester 5 Artificial Intelligence course, covering Deep Learning foundations (neural networks, backpropagation, optimizers), Computer Vision (OpenCV, CNNs, object detection with RCNN/YOLO), and Forecasting & Advanced NLP (ARIMA, RNN/LSTM/GRU, Transformer architectures and attention), with hands-on notebooks, assignments, and a capstone mini project.",
+            icon: Brain,
+            tech: ["Deep Learning", "CNNs", "Computer Vision", "RNN/LSTM", "Transformers", "NLP"],
+            color: "text-brand-secondary"
+        },
+        {
+            title: "Excel for Business Analytics Training",
+            organization: "CMS Business School",
+            location: "Gandhi Nagar, Bangalore",
+            date: "September, 2026",
+            duration: "2-Week Training",
+            description: "Delivered a 2-week Excel training program for MBA students, covering the interface and core shortcuts, structured tables, formulas, cell referencing, decision logic with IF/AND/OR, sorting and filtering, and data cleaning on real messy business exports, extending into lookups, pivot tables, and dashboard basics for hands-on business reporting.",
+            icon: FileSpreadsheet,
+            tech: ["Excel", "Pivot Tables", "VLOOKUP", "Data Cleaning", "Business Reporting"],
+            color: "text-brand-accent"
         }
     ];
 
