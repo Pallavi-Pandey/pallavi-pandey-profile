@@ -7,6 +7,28 @@ import { Presentation, GraduationCap, Calendar, MapPin, Clock, Boxes, Sparkles, 
 const Activities = () => {
     const activities = [
         {
+            title: "Excel for Business Analytics Training",
+            organization: "CMS Business School",
+            location: "Gandhi Nagar, Bangalore",
+            date: "September, 2026",
+            duration: "2-Week Training",
+            description: "Delivered a 2-week Excel training program for MBA students, covering the interface and core shortcuts, structured tables, formulas, cell referencing, decision logic with IF/AND/OR, sorting and filtering, and data cleaning on real messy business exports, extending into lookups, pivot tables, and dashboard basics for hands-on business reporting.",
+            icon: FileSpreadsheet,
+            tech: ["Excel", "Pivot Tables", "VLOOKUP", "Data Cleaning", "Business Reporting"],
+            color: "text-brand-accent"
+        },
+        {
+            title: "Semester 5 AI Faculty: Deep Learning & NLP",
+            organization: "St. Claret College Autonomous",
+            location: "Bangalore",
+            date: "July – September, 2026",
+            duration: "40-Hour Semester Program",
+            description: "Taught the Semester 5 Artificial Intelligence course, covering Deep Learning foundations (neural networks, backpropagation, optimizers), Computer Vision (OpenCV, CNNs, object detection with RCNN/YOLO), and Forecasting & Advanced NLP (ARIMA, RNN/LSTM/GRU, Transformer architectures and attention), with hands-on notebooks, assignments, and a capstone mini project.",
+            icon: Brain,
+            tech: ["Deep Learning", "CNNs", "Computer Vision", "RNN/LSTM", "Transformers", "NLP"],
+            color: "text-brand-secondary"
+        },
+        {
             title: "Guest Lecture: AI & Data Science",
             organization: "VIT",
             location: "Vellore",
@@ -26,7 +48,7 @@ const Activities = () => {
             description: "Conducted a comprehensive 6-week training program on Data Analysis using SQL, Python, Pandas, NumPy, Power BI, and other modern data analysis tools, empowering students with practical industry-ready skills.",
             icon: GraduationCap,
             tech: ["SQL", "Python", "Pandas", "NumPy", "Power BI"],
-            color: "text-brand-secondary"
+            color: "text-brand-primary"
         },
         {
             title: "Workshop: Blockchain & Web3 Fundamentals",
@@ -48,29 +70,7 @@ const Activities = () => {
             description: "Delivered a hands-on 3 weeks offline intensive training for B.Tech interns at Training Institution, Bangalore Whitefield, covering LLM fundamentals, RAG pipelines, prompt engineering, agentic workflows with LangChain, and real-world deployment of AI-powered applications.",
             icon: Sparkles,
             tech: ["LLMs", "RAG", "LangChain", "Prompt Engineering", "Agentic AI", "HuggingFace"],
-            color: "text-brand-primary"
-        },
-        {
-            title: "Semester 5 AI Faculty: Deep Learning & NLP",
-            organization: "St. Claret College Autonomous",
-            location: "Bangalore",
-            date: "July – September, 2026",
-            duration: "40-Hour Semester Program",
-            description: "Taught the Semester 5 Artificial Intelligence course, covering Deep Learning foundations (neural networks, backpropagation, optimizers), Computer Vision (OpenCV, CNNs, object detection with RCNN/YOLO), and Forecasting & Advanced NLP (ARIMA, RNN/LSTM/GRU, Transformer architectures and attention), with hands-on notebooks, assignments, and a capstone mini project.",
-            icon: Brain,
-            tech: ["Deep Learning", "CNNs", "Computer Vision", "RNN/LSTM", "Transformers", "NLP"],
             color: "text-brand-secondary"
-        },
-        {
-            title: "Excel for Business Analytics Training",
-            organization: "CMS Business School",
-            location: "Gandhi Nagar, Bangalore",
-            date: "September, 2026",
-            duration: "2-Week Training",
-            description: "Delivered a 2-week Excel training program for MBA students, covering the interface and core shortcuts, structured tables, formulas, cell referencing, decision logic with IF/AND/OR, sorting and filtering, and data cleaning on real messy business exports, extending into lookups, pivot tables, and dashboard basics for hands-on business reporting.",
-            icon: FileSpreadsheet,
-            tech: ["Excel", "Pivot Tables", "VLOOKUP", "Data Cleaning", "Business Reporting"],
-            color: "text-brand-accent"
         }
     ];
 
