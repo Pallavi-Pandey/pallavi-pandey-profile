@@ -29,6 +29,17 @@ const Activities = () => {
             color: "text-brand-secondary"
         },
         {
+            title: "Data Analysis Training Program",
+            organization: "Dr. Ambedkar Institute of Technology",
+            location: "Bangalore",
+            date: "May, 2026",
+            duration: "6-Week Intensive Training",
+            description: "Conducted a comprehensive 6-week training program on Data Analysis using SQL, Python, Pandas, NumPy, Power BI, and other modern data analysis tools, empowering students with practical industry-ready skills.",
+            icon: GraduationCap,
+            tech: ["SQL", "Python", "Pandas", "NumPy", "Power BI"],
+            color: "text-brand-primary"
+        },
+        {
             title: "Guest Lecture: AI & Data Science",
             organization: "VIT",
             location: "Vellore",
@@ -37,18 +48,7 @@ const Activities = () => {
             description: "Delivered an insightful session on the evolving landscape of AI and Data Science, bridging academic theory with industry practices.",
             icon: Presentation,
             tech: ["AI", "Data Science", "Industry Trends"],
-            color: "text-brand-primary"
-        },
-        {
-            title: "Data Analysis Training Program",
-            organization: "Dr. Ambedkar Institute of Technology",
-            location: "Bangalore",
-            date: "2026",
-            duration: "6-Week Intensive Training",
-            description: "Conducted a comprehensive 6-week training program on Data Analysis using SQL, Python, Pandas, NumPy, Power BI, and other modern data analysis tools, empowering students with practical industry-ready skills.",
-            icon: GraduationCap,
-            tech: ["SQL", "Python", "Pandas", "NumPy", "Power BI"],
-            color: "text-brand-primary"
+            color: "text-brand-accent"
         },
         {
             title: "Workshop: Blockchain & Web3 Fundamentals",
