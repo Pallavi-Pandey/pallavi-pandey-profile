@@ -2,19 +2,41 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Presentation, GraduationCap, Calendar, MapPin, Clock, Boxes, Sparkles, Brain, FileSpreadsheet } from 'lucide-react';
+import { Presentation, GraduationCap, Calendar, MapPin, Clock, Boxes, Sparkles, Brain, ShieldAlert, Network, Calculator } from 'lucide-react';
 
 const Activities = () => {
     const activities = [
         {
-            title: "Excel for Business Analytics Training",
+            title: "Distributed Computing Faculty",
+            organization: "JAIN (Deemed-to-be University)",
+            location: "Jayanagar, Bengaluru",
+            date: "September, 2026 – Ongoing",
+            duration: "Ongoing Course",
+            description: "Teaching an M.Tech CSE Distributed Computing course, covering Module 1 (hands-on labs in sockets, RPC/gRPC, concurrency, mutual exclusion, and deadlocks) and Module 2 (fault tolerance, consistency, CAP theorem, and the full security stack from authentication through auditing).",
+            icon: Network,
+            tech: ["Distributed Systems", "RPC/gRPC", "Concurrency", "Fault Tolerance", "Security"],
+            color: "text-brand-primary"
+        },
+        {
+            title: "Workshop: AI × Cybersecurity",
+            organization: "Jain University",
+            location: "Global Campus, Kanakapura",
+            date: "October 5, 2026",
+            duration: "8-Hour Workshop",
+            description: "Delivered an 8-hour industry-focused workshop (4 hours theory + 4 hours hands-on labs) on AI in Cybersecurity — phishing detection, prompt injection and AI-system security, anomaly-based threat detection, incident response, SOC alert triage, and career pathways into AI-security roles.",
+            icon: ShieldAlert,
+            tech: ["AI Security", "Threat Detection", "Prompt Injection", "Incident Response", "SOC"],
+            color: "text-brand-secondary"
+        },
+        {
+            title: "Aptitude & Advanced Excel Training",
             organization: "CMS Business School",
             location: "Gandhi Nagar, Bangalore",
-            date: "September, 2026",
-            duration: "2-Week Training",
-            description: "Delivered a 2-week Excel training program for MBA students, covering the interface and core shortcuts, structured tables, formulas, cell referencing, decision logic with IF/AND/OR, sorting and filtering, and data cleaning on real messy business exports, extending into lookups, pivot tables, and dashboard basics for hands-on business reporting.",
-            icon: FileSpreadsheet,
-            tech: ["Excel", "Pivot Tables", "VLOOKUP", "Data Cleaning", "Business Reporting"],
+            date: "September – October, 2026",
+            duration: "4-Week Training",
+            description: "Delivered a 4-week placement-training program for MBA students, covering Aptitude (arithmetic shortcuts, percentages, ratios, and calculation speed techniques) and Advanced Excel (structured tables, formulas, IF/AND/OR logic, VLOOKUP/XLOOKUP, INDEX-MATCH, SUMIFS/COUNTIFS, text & date functions, error handling, and PivotTables/PivotCharts).",
+            icon: Calculator,
+            tech: ["Aptitude", "Excel", "PivotTables", "VLOOKUP", "Data Cleaning"],
             color: "text-brand-accent"
         },
         {
