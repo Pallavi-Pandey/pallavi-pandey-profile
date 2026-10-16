@@ -29,7 +29,7 @@ const Activities = () => {
             color: "text-brand-secondary"
         },
         {
-            title: "Aptitude & Advanced Excel Training",
+            title: "Placement Training",
             organization: "CMS Business School",
             location: "Gandhi Nagar, Bangalore",
             date: "September – October, 2026",
