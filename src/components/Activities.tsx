@@ -34,7 +34,7 @@ const Activities = () => {
             location: "Gandhi Nagar, Bangalore",
             date: "September – October, 2026",
             duration: "4-Week Training",
-            description: "Delivered a 4-week placement-training program for MBA students, covering Aptitude (arithmetic shortcuts, percentages, ratios, and calculation speed techniques) and Advanced Excel (structured tables, formulas, IF/AND/OR logic, VLOOKUP/XLOOKUP, INDEX-MATCH, SUMIFS/COUNTIFS, text & date functions, error handling, and PivotTables/PivotCharts).",
+            description: "Delivered a 4-week placement-training program for 2nd Year MBA students, covering Aptitude (arithmetic shortcuts, percentages, ratios, and calculation speed techniques) and Advanced Excel (structured tables, formulas, IF/AND/OR logic, VLOOKUP/XLOOKUP, INDEX-MATCH, SUMIFS/COUNTIFS, text & date functions, error handling, and PivotTables/PivotCharts).",
             icon: Calculator,
             tech: ["Aptitude", "Excel", "PivotTables", "VLOOKUP", "Data Cleaning"],
             color: "text-brand-accent"
